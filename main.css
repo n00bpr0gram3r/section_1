@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(/assests/pexels-markus-spiske-177598.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+.boxx h2{
+    text-decoration: underline;
+    text-decoration-color: violet;
+}
+.boxx {
+    /* border: 1px solid red; */
+    padding: 50px;
+    border-radius: 18px;
+    background-color: rgba(116, 104, 249, 0.56);
+    /* -webkit-box-shadow: 1px 10px 114px 7px rgba(240,173,240,0.74); */
+    /* -moz-box-shadow: 1px 10px 114px 7px rgba(240,173,240,0.74); */
+    box-shadow: 1px 10px 94px 7px rgba(173, 175, 240, 0.74);
+    color: whitesmoke;
+   
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(4px);
+}
+
+#box{
+    margin: 12px 0px 10px 0px;
+    
+}
+
+#box input{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 18px;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+
+.btn button{
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 12px;
+    left: 4%;
+    top: 2px;
+}
+.boxx label{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
